@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main () {
-
-    while (1)
+    int i = 0, veces;
+    printf ("Cuantas veces: ");
+    scanf ("%d", &veces);
+    while (i < veces)
     {
-        printf ("si\n");
-        break;
+        printf ("hola %d\n", i + 1);
+        i++;
     }
     
 
